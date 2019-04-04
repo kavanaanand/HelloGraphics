@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5666AE322255807600B81C56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5666AE312255807600B81C56 /* AppDelegate.m */; };
+		5666AE352255807600B81C56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5666AE342255807600B81C56 /* ViewController.m */; };
+		5666AE382255807600B81C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5666AE362255807600B81C56 /* Main.storyboard */; };
+		5666AE3A2255807600B81C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5666AE392255807600B81C56 /* Assets.xcassets */; };
+		5666AE3D2255807600B81C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5666AE3B2255807600B81C56 /* LaunchScreen.storyboard */; };
+		5666AE402255807600B81C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5666AE3F2255807600B81C56 /* main.m */; };
+		5666AE4A2255810000B81C56 /* HelloGraphicsRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5666AE492255810000B81C56 /* HelloGraphicsRenderer.m */; };
+		5666AE502255944800B81C56 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5666AE4C2255813D00B81C56 /* MetalKit.framework */; };
+		56BAA7E72255A98700FC63BA /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BAA7E62255A98700FC63BA /* Metal.framework */; };
+		56BAA7F12255A9FA00FC63BA /* HelloGraphics_macOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BAA7F02255A9FA00FC63BA /* HelloGraphics_macOSAppDelegate.m */; };
+		56BAA7F32255A9FB00FC63BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BAA7F22255A9FB00FC63BA /* Assets.xcassets */; };
+		56BAA7F92255A9FB00FC63BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BAA7F82255A9FB00FC63BA /* main.m */; };
+		56BAA8012255AA6100FC63BA /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BAA7E32255A97C00FC63BA /* Metal.framework */; };
+		56BAA8022255AA6100FC63BA /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BAA7E22255A97C00FC63BA /* MetalKit.framework */; };
+		56BAA8032255AA9500FC63BA /* HelloGraphicsRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5666AE492255810000B81C56 /* HelloGraphicsRenderer.m */; };
+		56BAA8062255AB8700FC63BA /* HelloGraphics_macOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BAA8052255AB8700FC63BA /* HelloGraphics_macOSViewController.m */; };
+		56F44427225652B30055B132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F44426225652B30055B132 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5666AE2D2255807600B81C56 /* HelloGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5666AE302255807600B81C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5666AE312255807600B81C56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5666AE332255807600B81C56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5666AE342255807600B81C56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5666AE372255807600B81C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5666AE392255807600B81C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5666AE3C2255807600B81C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5666AE3E2255807600B81C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5666AE3F2255807600B81C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5666AE482255810000B81C56 /* HelloGraphicsRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloGraphicsRenderer.h; sourceTree = "<group>"; };
+		5666AE492255810000B81C56 /* HelloGraphicsRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloGraphicsRenderer.m; sourceTree = "<group>"; };
+		5666AE4C2255813D00B81C56 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		56BAA7E22255A97C00FC63BA /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
+		56BAA7E32255A97C00FC63BA /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		56BAA7E62255A98700FC63BA /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		56BAA7ED2255A9FA00FC63BA /* HelloGraphics macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloGraphics macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BAA7EF2255A9FA00FC63BA /* HelloGraphics_macOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloGraphics_macOSAppDelegate.h; sourceTree = "<group>"; };
+		56BAA7F02255A9FA00FC63BA /* HelloGraphics_macOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloGraphics_macOSAppDelegate.m; sourceTree = "<group>"; };
+		56BAA7F22255A9FB00FC63BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56BAA7F72255A9FB00FC63BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BAA7F82255A9FB00FC63BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56BAA7FA2255A9FB00FC63BA /* HelloGraphics_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloGraphics_macOS.entitlements; sourceTree = "<group>"; };
+		56BAA8042255AB8700FC63BA /* HelloGraphics_macOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloGraphics_macOSViewController.h; sourceTree = "<group>"; };
+		56BAA8052255AB8700FC63BA /* HelloGraphics_macOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloGraphics_macOSViewController.m; sourceTree = "<group>"; };
+		56F44426225652B30055B132 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5666AE2A2255807600B81C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BAA7E72255A98700FC63BA /* Metal.framework in Frameworks */,
+				5666AE502255944800B81C56 /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BAA7EA2255A9FA00FC63BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BAA8012255AA6100FC63BA /* Metal.framework in Frameworks */,
+				56BAA8022255AA6100FC63BA /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5666AE242255807600B81C56 = {
+			isa = PBXGroup;
+			children = (
+				5666AE47225580C500B81C56 /* HelloGraphicsRenderer */,
+				5666AE46225580A500B81C56 /* HelloTriangleRenderer */,
+				5666AE2F2255807600B81C56 /* HelloGraphics */,
+				56BAA7EE2255A9FA00FC63BA /* HelloGraphics macOS */,
+				5666AE2E2255807600B81C56 /* Products */,
+				5666AE4B2255813C00B81C56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5666AE2E2255807600B81C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5666AE2D2255807600B81C56 /* HelloGraphics.app */,
+				56BAA7ED2255A9FA00FC63BA /* HelloGraphics macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5666AE2F2255807600B81C56 /* HelloGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				5666AE302255807600B81C56 /* AppDelegate.h */,
+				5666AE312255807600B81C56 /* AppDelegate.m */,
+				5666AE332255807600B81C56 /* ViewController.h */,
+				5666AE342255807600B81C56 /* ViewController.m */,
+				5666AE362255807600B81C56 /* Main.storyboard */,
+				5666AE392255807600B81C56 /* Assets.xcassets */,
+				5666AE3B2255807600B81C56 /* LaunchScreen.storyboard */,
+				5666AE3E2255807600B81C56 /* Info.plist */,
+				5666AE3F2255807600B81C56 /* main.m */,
+			);
+			path = HelloGraphics;
+			sourceTree = "<group>";
+		};
+		5666AE46225580A500B81C56 /* HelloTriangleRenderer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelloTriangleRenderer;
+			sourceTree = "<group>";
+		};
+		5666AE47225580C500B81C56 /* HelloGraphicsRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				5666AE482255810000B81C56 /* HelloGraphicsRenderer.h */,
+				5666AE492255810000B81C56 /* HelloGraphicsRenderer.m */,
+			);
+			path = HelloGraphicsRenderer;
+			sourceTree = "<group>";
+		};
+		5666AE4B2255813C00B81C56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56BAA7E32255A97C00FC63BA /* Metal.framework */,
+				56BAA7E62255A98700FC63BA /* Metal.framework */,
+				56BAA7E22255A97C00FC63BA /* MetalKit.framework */,
+				5666AE4C2255813D00B81C56 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56BAA7EE2255A9FA00FC63BA /* HelloGraphics macOS */ = {
+			isa = PBXGroup;
+			children = (
+				56BAA7EF2255A9FA00FC63BA /* HelloGraphics_macOSAppDelegate.h */,
+				56BAA7F02255A9FA00FC63BA /* HelloGraphics_macOSAppDelegate.m */,
+				56BAA7F22255A9FB00FC63BA /* Assets.xcassets */,
+				56BAA7F72255A9FB00FC63BA /* Info.plist */,
+				56BAA7F82255A9FB00FC63BA /* main.m */,
+				56BAA7FA2255A9FB00FC63BA /* HelloGraphics_macOS.entitlements */,
+				56BAA8042255AB8700FC63BA /* HelloGraphics_macOSViewController.h */,
+				56BAA8052255AB8700FC63BA /* HelloGraphics_macOSViewController.m */,
+				56F44426225652B30055B132 /* Main.storyboard */,
+			);
+			path = "HelloGraphics macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5666AE2C2255807600B81C56 /* HelloGraphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5666AE432255807600B81C56 /* Build configuration list for PBXNativeTarget "HelloGraphics" */;
+			buildPhases = (
+				5666AE292255807600B81C56 /* Sources */,
+				5666AE2A2255807600B81C56 /* Frameworks */,
+				5666AE2B2255807600B81C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloGraphics;
+			productName = HelloGraphics;
+			productReference = 5666AE2D2255807600B81C56 /* HelloGraphics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56BAA7EC2255A9FA00FC63BA /* HelloGraphics macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56BAA7FB2255A9FB00FC63BA /* Build configuration list for PBXNativeTarget "HelloGraphics macOS" */;
+			buildPhases = (
+				56BAA7E92255A9FA00FC63BA /* Sources */,
+				56BAA7EA2255A9FA00FC63BA /* Frameworks */,
+				56BAA7EB2255A9FA00FC63BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloGraphics macOS";
+			productName = "HelloGraphics macOS";
+			productReference = 56BAA7ED2255A9FA00FC63BA /* HelloGraphics macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5666AE252255807600B81C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kavana Anand";
+				TargetAttributes = {
+					5666AE2C2255807600B81C56 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					56BAA7EC2255A9FA00FC63BA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5666AE282255807600B81C56 /* Build configuration list for PBXProject "HelloGraphics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5666AE242255807600B81C56;
+			productRefGroup = 5666AE2E2255807600B81C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5666AE2C2255807600B81C56 /* HelloGraphics */,
+				56BAA7EC2255A9FA00FC63BA /* HelloGraphics macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5666AE2B2255807600B81C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5666AE3D2255807600B81C56 /* LaunchScreen.storyboard in Resources */,
+				5666AE3A2255807600B81C56 /* Assets.xcassets in Resources */,
+				5666AE382255807600B81C56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BAA7EB2255A9FA00FC63BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F44427225652B30055B132 /* Main.storyboard in Resources */,
+				56BAA7F32255A9FB00FC63BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5666AE292255807600B81C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5666AE352255807600B81C56 /* ViewController.m in Sources */,
+				5666AE402255807600B81C56 /* main.m in Sources */,
+				5666AE4A2255810000B81C56 /* HelloGraphicsRenderer.m in Sources */,
+				5666AE322255807600B81C56 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BAA7E92255A9FA00FC63BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BAA7F92255A9FB00FC63BA /* main.m in Sources */,
+				56BAA8032255AA9500FC63BA /* HelloGraphicsRenderer.m in Sources */,
+				56BAA8062255AB8700FC63BA /* HelloGraphics_macOSViewController.m in Sources */,
+				56BAA7F12255A9FA00FC63BA /* HelloGraphics_macOSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5666AE362255807600B81C56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5666AE372255807600B81C56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5666AE3B2255807600B81C56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5666AE3C2255807600B81C56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5666AE412255807600B81C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5666AE422255807600B81C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5666AE442255807600B81C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4EZ4J3476;
+				INFOPLIST_FILE = HelloGraphics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.HelloGraphics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5666AE452255807600B81C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4EZ4J3476;
+				INFOPLIST_FILE = HelloGraphics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.HelloGraphics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56BAA7FC2255A9FB00FC63BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HelloGraphics macOS/HelloGraphics_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "HelloGraphics macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myapp.HelloGraphics-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		56BAA7FD2255A9FB00FC63BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HelloGraphics macOS/HelloGraphics_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "HelloGraphics macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myapp.HelloGraphics-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5666AE282255807600B81C56 /* Build configuration list for PBXProject "HelloGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5666AE412255807600B81C56 /* Debug */,
+				5666AE422255807600B81C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5666AE432255807600B81C56 /* Build configuration list for PBXNativeTarget "HelloGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5666AE442255807600B81C56 /* Debug */,
+				5666AE452255807600B81C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56BAA7FB2255A9FB00FC63BA /* Build configuration list for PBXNativeTarget "HelloGraphics macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BAA7FC2255A9FB00FC63BA /* Debug */,
+				56BAA7FD2255A9FB00FC63BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5666AE252255807600B81C56 /* Project object */;
+}
