@@ -25,6 +25,14 @@
 		569C5576225A72D000752FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 569C5570225A72D000752FCE /* main.m */; };
 		569C5577225A737700752FCE /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BAA7E22255A97C00FC63BA /* MetalKit.framework */; };
 		569C5578225A739300752FCE /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BAA7E32255A97C00FC63BA /* Metal.framework */; };
+		56AE8E42225C27CF0085E7DA /* HelloTriangles_macOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AE8E41225C27CF0085E7DA /* HelloTriangles_macOSAppDelegate.m */; };
+		56AE8E45225C27CF0085E7DA /* HelloTriangles_macOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AE8E44225C27CF0085E7DA /* HelloTriangles_macOSViewController.m */; };
+		56AE8E47225C27D00085E7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AE8E46225C27D00085E7DA /* Assets.xcassets */; };
+		56AE8E4A225C27D00085E7DA /* HelloTriangles_macOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AE8E48225C27D00085E7DA /* HelloTriangles_macOS.storyboard */; };
+		56AE8E4D225C27D00085E7DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AE8E4C225C27D00085E7DA /* main.m */; };
+		56AE8E55225C28CD0085E7DA /* HelloTrianglesRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AE8E54225C28CD0085E7DA /* HelloTrianglesRenderer.m */; };
+		56AE8E58225C290C0085E7DA /* HelloTrianglesShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 56AE8E57225C290C0085E7DA /* HelloTrianglesShader.metal */; };
+		56AE8E59225C2A4B0085E7DA /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BAA7E22255A97C00FC63BA /* MetalKit.framework */; };
 		56BAA7E72255A98700FC63BA /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BAA7E62255A98700FC63BA /* Metal.framework */; };
 		56BAA7F12255A9FA00FC63BA /* HelloGraphics_macOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BAA7F02255A9FA00FC63BA /* HelloGraphics_macOSAppDelegate.m */; };
 		56BAA7F32255A9FB00FC63BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BAA7F22255A9FB00FC63BA /* Assets.xcassets */; };
@@ -64,6 +72,20 @@
 		569C556E225A72D000752FCE /* HelloTriangle_macOS.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = HelloTriangle_macOS.entitlements; path = "HelloTriangle macOS/HelloTriangle_macOS.entitlements"; sourceTree = SOURCE_ROOT; };
 		569C556F225A72D000752FCE /* HelloTriangle_macOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloTriangle_macOSAppDelegate.h; path = "HelloTriangle macOS/HelloTriangle_macOSAppDelegate.h"; sourceTree = SOURCE_ROOT; };
 		569C5570225A72D000752FCE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "HelloTriangle macOS/main.m"; sourceTree = SOURCE_ROOT; };
+		56AE8E3E225C27CF0085E7DA /* HelloTriangles macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloTriangles macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AE8E40225C27CF0085E7DA /* HelloTriangles_macOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTriangles_macOSAppDelegate.h; sourceTree = "<group>"; };
+		56AE8E41225C27CF0085E7DA /* HelloTriangles_macOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTriangles_macOSAppDelegate.m; sourceTree = "<group>"; };
+		56AE8E43225C27CF0085E7DA /* HelloTriangles_macOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTriangles_macOSViewController.h; sourceTree = "<group>"; };
+		56AE8E44225C27CF0085E7DA /* HelloTriangles_macOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTriangles_macOSViewController.m; sourceTree = "<group>"; };
+		56AE8E46225C27D00085E7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56AE8E49225C27D00085E7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HelloTriangles_macOS.storyboard; sourceTree = "<group>"; };
+		56AE8E4B225C27D00085E7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56AE8E4C225C27D00085E7DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56AE8E4E225C27D00085E7DA /* HelloTriangles_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloTriangles_macOS.entitlements; sourceTree = "<group>"; };
+		56AE8E53225C28CD0085E7DA /* HelloTrianglesRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTrianglesRenderer.h; sourceTree = "<group>"; };
+		56AE8E54225C28CD0085E7DA /* HelloTrianglesRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTrianglesRenderer.m; sourceTree = "<group>"; };
+		56AE8E56225C28F60085E7DA /* HelloTrianglesShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloTrianglesShaderTypes.h; sourceTree = "<group>"; };
+		56AE8E57225C290C0085E7DA /* HelloTrianglesShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = HelloTrianglesShader.metal; sourceTree = "<group>"; };
 		56BAA7E22255A97C00FC63BA /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		56BAA7E32255A97C00FC63BA /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
 		56BAA7E62255A98700FC63BA /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
@@ -95,6 +117,14 @@
 			files = (
 				56BAA7E72255A98700FC63BA /* Metal.framework in Frameworks */,
 				5666AE502255944800B81C56 /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AE8E3B225C27CF0085E7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AE8E59225C2A4B0085E7DA /* MetalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,9 +161,11 @@
 			children = (
 				5666AE47225580C500B81C56 /* HelloGraphicsRenderer */,
 				5666AE46225580A500B81C56 /* HelloTriangleRenderer */,
+				56AE8E52225C28AC0085E7DA /* HelloTrianglesRenderer */,
 				5666AE2F2255807600B81C56 /* HelloGraphics */,
 				56BAA7EE2255A9FA00FC63BA /* HelloGraphics macOS */,
 				561592582259053D001A75D8 /* HelloTriangle macOS */,
+				56AE8E3F225C27CF0085E7DA /* HelloTriangles macOS */,
 				5666AE2E2255807600B81C56 /* Products */,
 				5666AE4B2255813C00B81C56 /* Frameworks */,
 			);
@@ -145,6 +177,7 @@
 				5666AE2D2255807600B81C56 /* HelloGraphics.app */,
 				56BAA7ED2255A9FA00FC63BA /* HelloGraphics macOS.app */,
 				561592572259053D001A75D8 /* HelloTriangle macOS.app */,
+				56AE8E3E225C27CF0085E7DA /* HelloTriangles macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,6 +227,33 @@
 				5666AE4C2255813D00B81C56 /* MetalKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56AE8E3F225C27CF0085E7DA /* HelloTriangles macOS */ = {
+			isa = PBXGroup;
+			children = (
+				56AE8E40225C27CF0085E7DA /* HelloTriangles_macOSAppDelegate.h */,
+				56AE8E41225C27CF0085E7DA /* HelloTriangles_macOSAppDelegate.m */,
+				56AE8E43225C27CF0085E7DA /* HelloTriangles_macOSViewController.h */,
+				56AE8E44225C27CF0085E7DA /* HelloTriangles_macOSViewController.m */,
+				56AE8E46225C27D00085E7DA /* Assets.xcassets */,
+				56AE8E48225C27D00085E7DA /* HelloTriangles_macOS.storyboard */,
+				56AE8E4B225C27D00085E7DA /* Info.plist */,
+				56AE8E4C225C27D00085E7DA /* main.m */,
+				56AE8E4E225C27D00085E7DA /* HelloTriangles_macOS.entitlements */,
+			);
+			path = "HelloTriangles macOS";
+			sourceTree = "<group>";
+		};
+		56AE8E52225C28AC0085E7DA /* HelloTrianglesRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				56AE8E53225C28CD0085E7DA /* HelloTrianglesRenderer.h */,
+				56AE8E54225C28CD0085E7DA /* HelloTrianglesRenderer.m */,
+				56AE8E56225C28F60085E7DA /* HelloTrianglesShaderTypes.h */,
+				56AE8E57225C290C0085E7DA /* HelloTrianglesShader.metal */,
+			);
+			path = HelloTrianglesRenderer;
 			sourceTree = "<group>";
 		};
 		56BAA7EE2255A9FA00FC63BA /* HelloGraphics macOS */ = {
@@ -249,6 +309,23 @@
 			productReference = 5666AE2D2255807600B81C56 /* HelloGraphics.app */;
 			productType = "com.apple.product-type.application";
 		};
+		56AE8E3D225C27CF0085E7DA /* HelloTriangles macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56AE8E51225C27D00085E7DA /* Build configuration list for PBXNativeTarget "HelloTriangles macOS" */;
+			buildPhases = (
+				56AE8E3A225C27CF0085E7DA /* Sources */,
+				56AE8E3B225C27CF0085E7DA /* Frameworks */,
+				56AE8E3C225C27CF0085E7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloTriangles macOS";
+			productName = "HelloTriangles macOS";
+			productReference = 56AE8E3E225C27CF0085E7DA /* HelloTriangles macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		56BAA7EC2255A9FA00FC63BA /* HelloGraphics macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56BAA7FB2255A9FB00FC63BA /* Build configuration list for PBXNativeTarget "HelloGraphics macOS" */;
@@ -281,6 +358,9 @@
 					5666AE2C2255807600B81C56 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					56AE8E3D225C27CF0085E7DA = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					56BAA7EC2255A9FA00FC63BA = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -302,6 +382,7 @@
 				5666AE2C2255807600B81C56 /* HelloGraphics */,
 				56BAA7EC2255A9FA00FC63BA /* HelloGraphics macOS */,
 				561592562259053D001A75D8 /* HelloTriangle macOS */,
+				56AE8E3D225C27CF0085E7DA /* HelloTriangles macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -324,6 +405,15 @@
 				5666AE3D2255807600B81C56 /* LaunchScreen.storyboard in Resources */,
 				5666AE3A2255807600B81C56 /* Assets.xcassets in Resources */,
 				5666AE382255807600B81C56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AE8E3C225C27CF0085E7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AE8E47225C27D00085E7DA /* Assets.xcassets in Resources */,
+				56AE8E4A225C27D00085E7DA /* HelloTriangles_macOS.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +452,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		56AE8E3A225C27CF0085E7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AE8E45225C27CF0085E7DA /* HelloTriangles_macOSViewController.m in Sources */,
+				56AE8E58225C290C0085E7DA /* HelloTrianglesShader.metal in Sources */,
+				56AE8E4D225C27D00085E7DA /* main.m in Sources */,
+				56AE8E42225C27CF0085E7DA /* HelloTriangles_macOSAppDelegate.m in Sources */,
+				56AE8E55225C28CD0085E7DA /* HelloTrianglesRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56BAA7E92255A9FA00FC63BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +492,14 @@
 				5666AE3C2255807600B81C56 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		56AE8E48225C27D00085E7DA /* HelloTriangles_macOS.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56AE8E49225C27D00085E7DA /* Base */,
+			);
+			name = HelloTriangles_macOS.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -581,6 +691,48 @@
 			};
 			name = Release;
 		};
+		56AE8E4F225C27D00085E7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HelloTriangles macOS/HelloTriangles_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M4EZ4J3476;
+				INFOPLIST_FILE = "HelloTriangles macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myapp.HelloTriangles-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		56AE8E50225C27D00085E7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HelloTriangles macOS/HelloTriangles_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M4EZ4J3476;
+				INFOPLIST_FILE = "HelloTriangles macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myapp.HelloTriangles-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		56BAA7FC2255A9FB00FC63BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -647,6 +799,15 @@
 			buildConfigurations = (
 				5666AE442255807600B81C56 /* Debug */,
 				5666AE452255807600B81C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56AE8E51225C27D00085E7DA /* Build configuration list for PBXNativeTarget "HelloTriangles macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AE8E4F225C27D00085E7DA /* Debug */,
+				56AE8E50225C27D00085E7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
